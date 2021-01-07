@@ -44,6 +44,10 @@ p{
     text-align: center;
 }
 
+.block button[disabled]{
+    color: black;
+}
+
 .block button:hover{
     background: rgba(135, 206, 235,1);
     cursor: pointer;
@@ -81,5 +85,9 @@ a{
 @media(max-width: 1300px){
     .txt{
         width: 100%;
+    }
+    .block button{
+        width: 80px;
+        height: 80px;
     }
 }
