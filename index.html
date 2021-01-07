@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cardgame</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>神経衰弱</h1>
+    <div class="txt">
+        <p>ボタンをクリックすると、そのボタンの数が見れます</p>
+        <p>一ターンにボタンをクリックできるのは2回までで、二回クリックすると、下に次のターンへ進むボタンが出てきます</p>
+        <p>ボタンに書かれた数字を覚えたら、次のターンへ行くボタンを押して、新しいカードを開けましょう。</p>
+        <p>開けた二枚のカードの数字が同じだったときは、次のターンへ行くボタンをクリックすることで、カードを消すことができます。</p>
+    </div>
+    <div class="around">
+        <h1 id="gameclear">game clear!</h1>
+        <div class="block one">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+
+        <div class="block two">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+
+        <div class="block three">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+        <div class="turn">
+            <button id="turn">次のターン</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
